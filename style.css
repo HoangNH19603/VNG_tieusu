@@ -1,0 +1,79 @@
+body {
+    background-image: url('./assets/pexels-hellochemo-3274210.jpg'); /* Replace 'your-image-url.jpg' with the actual image URL */
+    background-size: cover; /* Make sure the image covers the whole page */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    background-position: center; /* Center the image on the page */
+    color: blanchedalmond;
+    padding: 55px;
+}
+
+#thongtincoban {
+    width: 45%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    font-size: 20px;
+    color: blanchedalmond;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a:hover {
+    color: #e3c490;
+}
+
+#gioithieu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#gioithieu img {
+    width: 25%;
+    padding: 25px;
+}
+
+#cactrandanhlichsu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#dananh {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#ketthuc {
+    background: #e3c490;
+    padding: 35px;
+    color: #4c4949;
+}
+
+.tieude {
+    color: #e3c490;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+li {
+    line-height: 2;
+}
+
+.noidung {
+    font-size: 18px;
+}
+
+#tongket {
+    font-family: Arial, Helvetica, sans-serif;
+}
+#tongket > h3 {
+    font-size: 34px;
+}
+
+#tongket > p {
+    font-size: 18px;
+}
